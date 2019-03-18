@@ -1,0 +1,145 @@
+TimeSeries.py:def ncsummary(ncf): # prints a summary of the contents of netCDF file
+TimeSeries.py:def time2years(tvals,nc_time_units):
+TimeSeries.py:def time_series_plot(times,vals,title="",xlab="",ylab="",comment="",negc='blue',posc='red'):
+TimeSeries.py:def spectral_density_plot(times, vals, nfft=2048, title="",
+griddeddata.py:def plotpixels2(lon1d,lat1d,data,lowc=None,hic=None,title=None,
+griddeddata.py:def iwant(myval,target):
+n010_juliasetfractals.py:def julia(x,y,cr,ci,itermax,b):
+n020_conwaygameoflife.py:def periodic(a):
+n020_conwaygameoflife.py:def slowstep(b):
+n020_conwaygameoflife.py:def neighbors(b):
+n020_conwaygameoflife.py:def faststep(b): 
+n030_coupledode.py:def Vconserve(x,y):
+n030_coupledode.py:def dxdtlv(x,y):
+n030_coupledode.py:def dydtlv(x,y):
+n030_coupledode.py:def dxdto(x,v):
+n030_coupledode.py:def dvdto(x,v):
+n030_coupledode.py:def Econserve(x,v):
+n030_coupledode.py:def ab_blend(dqdt,order):
+n030_coupledode.py:def stepper(x,y,f,g,cons,time=0,tstop=50.,dt=1.,aborder=3,scheme=1):
+n050_advectionpde1d.py:def ab_blend(dqdt,order):
+n070_shallowwater1d.py:def ab_blend(dqdt,order):
+n070_shallowwater1d.py:def advect(u,b,dx,order):
+n070_shallowwater1d.py:def convergence(u,h,dx,order):
+n080_shallowwater2d.py:def stop_clipping(ax,marg=.02): # default is 2% increase
+n080_shallowwater2d.py:def ab_blend(dqdt,order):
+n080_shallowwater2d.py:def p2u(p):
+n080_shallowwater2d.py:def u2p(u):
+n080_shallowwater2d.py:def divergence(u,v,dx,dy):
+n080_shallowwater2d.py:def vorticity(u,v,dx,dy):
+n080_shallowwater2d.py:def advect3(q,u,v,dx,dy): 
+n080_shallowwater2d.py:def pgf(p,dx,dy):
+n090_streamfunctionvorticity2d.py:def stop_clipping(ax,marg=.02): # default is 2% increase
+n090_streamfunctionvorticity2d.py:def ab_blend(dqdt,order):
+n090_streamfunctionvorticity2d.py:def advect(q,u,v,dx,dy): 
+n090_streamfunctionvorticity2d.py:def divergence(u,v,dx,dy):
+n090_streamfunctionvorticity2d.py:def vortp(u,v,dx,dy):
+n090_streamfunctionvorticity2d.py:def vortU(u,v,dx,dy):
+n090_streamfunctionvorticity2d.py:def psi_to_uv(q,dx,dy):
+n090_streamfunctionvorticity2d.py:def laplacian(p,dx,dy,il=None, ir=None, jb=None, jt=None):
+n090_streamfunctionvorticity2d.py:def poisson_fft_prep(Nx,Ny,dx,dy,lapl='discrete'):
+n090_streamfunctionvorticity2d.py:def poisson_fft(vort, invlapl): 
+n090_streamfunctionvorticity2d.py:def doplot():
+n090_streamfunctionvorticity2d.py:def iterative_poisson( qfirstguess, del2q, dx, dy, niterations):
+n100_pressuresolver2d.py:def stop_clipping(ax,marg=.02): # default is 2% increase
+n100_pressuresolver2d.py:def ab_blend(dqdt,order):
+n100_pressuresolver2d.py:def advect(q,u,v,dx,dy): 
+n100_pressuresolver2d.py:def poisson_p_fft_prep(Nxp,Nyp,dx,dy,lapl='discrete'):
+n100_pressuresolver2d.py:def poisson_p_fft(div,invlapl):
+n100_pressuresolver2d.py:def U_to_p(U):
+n100_pressuresolver2d.py:def w_to_u(w):
+n100_pressuresolver2d.py:def u_to_w(u):
+n100_pressuresolver2d.py:def v_to_u(v): # v is on p-grid, this is same as p_to_u
+n100_pressuresolver2d.py:def u_to_p(u):
+n100_pressuresolver2d.py:def w_to_p(w):
+n100_pressuresolver2d.py:def divergence(u,v,dx,dy):
+n100_pressuresolver2d.py:def laplacian(p,dx,dy,il=None, ir=None, jb=None, jt=None):
+n100_pressuresolver2d.py:def vortU(u,v,dx,dy):
+n100_pressuresolver2d.py:def doplot():
+n110_hydrostatic_vs_nonhydrostatic2d.py:def stop_clipping(ax,marg=.02): # default is 2% increase
+n110_hydrostatic_vs_nonhydrostatic2d.py:def ab_blend(dqdt,order):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def advect_box(q,u,v,dx,dy): 
+n110_hydrostatic_vs_nonhydrostatic2d.py:def divergence(u,v,dx,dy):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def laplacian(p,dx,dy, il=None, ir=None, jb=None, jt=None):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def vortU(u,v,dx,dy):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def U_to_p(U):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def w_to_u(w,bn='rigid'):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def u_to_w(u):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def v_to_u(v,bn='rigid'):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def u_to_p(u):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def w_to_p(w):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def Btotal(b,strat,zb):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def advect(q,u,w,dx,dz,periodic=False): 
+n110_hydrostatic_vs_nonhydrostatic2d.py:def poisson_p_fft_prep(Nxp,Nyp,dx,dy,lapl='discrete',periodic=False):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def poisson_p_fft(div,invlapl,periodic=False):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def hydrostatic_pressure_solver(dudt,b,dx,dz,divha_target=None,periodic=False):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def wfromu(u,dx,dz):
+n110_hydrostatic_vs_nonhydrostatic2d.py:def doplot():
+n120_baroclinicinstability3d.py:def ab_blend(dqdt,order):
+n120_baroclinicinstability3d.py:def poisson_p_fft_prep(Nxp,Nyp,dx,dy,lapl='discrete',periodic=False):
+n120_baroclinicinstability3d.py:def poisson_p_fft(div,invlapl,periodic=False):
+n120_baroclinicinstability3d.py:def hydrostatic_pressure_3D_Cgrid(dudt,dvdt,b,dx,dy,dz,invlapl,divh_target=0.):
+n120_baroclinicinstability3d.py:def make3dgrid(ix,iy,iz,xmax,ymax,zmax):
+n120_baroclinicinstability3d.py:def advect_3d(q,u,v,w,dx,dy,dz):
+n120_baroclinicinstability3d.py:def stop_clipping(ax,marg=.02): # default is 2% increase
+n120_baroclinicinstability3d.py:def wfromuv_Cgrid(u,v,dx,dy,dz):
+n120_baroclinicinstability3d.py:def div_Cgrid(u,v,w,dx,dy,dz):
+n120_baroclinicinstability3d.py:def thermal_wind_Cgrid(cori,b,dx,dy,dz,sym=False):
+n120_baroclinicinstability3d.py:def v_to_u(v,bnd='slip'):
+n120_baroclinicinstability3d.py:def w_to_u(w,bnd='slip'):
+n120_baroclinicinstability3d.py:def u_to_v(u,bnd='slip'):
+n120_baroclinicinstability3d.py:def w_to_v(w,bnd='slip'):
+n120_baroclinicinstability3d.py:def u_to_w(u,bnd='slip'):
+n120_baroclinicinstability3d.py:def v_to_w(v,bnd='slip'):
+n120_baroclinicinstability3d.py:def u_to_p(u):
+n120_baroclinicinstability3d.py:def v_to_p(v):
+n120_baroclinicinstability3d.py:def w_to_p(w):
+n120_baroclinicinstability3d.py:def U2p_3d(U):
+n120_baroclinicinstability3d.py:def pathit(xpath,ypath,x,y):
+n120_baroclinicinstability3d.py:def curtain(ipath,jpath,fxa,fya,q):
+n120_baroclinicinstability3d.py:def doplot():
+n130_pettornado3d.py:def ab_blend(dqdt,order):
+n130_pettornado3d.py:def make3dgrid(ix,iy,iz,xmax,ymax,zmax):
+n130_pettornado3d.py:def advect_3d(q,u,v,w,dx,dy,dz):
+n130_pettornado3d.py:def advect_3dp(q,u,v,w,dx,dy,dz,per='U'): 
+n130_pettornado3d.py:def div_Cgrid(u,v,w,dx,dy,dz):
+n130_pettornado3d.py:def pgf_3dp(p,dx,dy,dz):
+n130_pettornado3d.py:def v_to_u(v,bnd='slip'):
+n130_pettornado3d.py:def w_to_u(w,bnd='slip'):
+n130_pettornado3d.py:def u_to_v(u,bnd='slip'):
+n130_pettornado3d.py:def w_to_v(w,bnd='slip'):
+n130_pettornado3d.py:def u_to_w(u,bnd='slip'):
+n130_pettornado3d.py:def v_to_w(v,bnd='slip'):
+n130_pettornado3d.py:def u_to_p(u):
+n130_pettornado3d.py:def v_to_p(v):
+n130_pettornado3d.py:def w_to_p(w):
+n130_pettornado3d.py:def U2p_3d(U):
+n130_pettornado3d.py:def stop_clipping(ax,marg=.02): # default is 2% increase
+n130_pettornado3d.py:def lapl_p_3d(p,dx,dy,dz):
+n130_pettornado3d.py:def lapl_p_3d_periodic(p,dx,dy,dz):
+n130_pettornado3d.py:def poisson3d_p_fft_prep(sh,dx,dy,dz,lapl='discrete',periodic=False):
+n130_pettornado3d.py:def poisson3d_p_fft(del2p,inv_lapl_op,periodic=False):
+n130_pettornado3d.py:def doplot(jp=None,kp=None,iwant='xz'):
+n140_convection3d.py:def ab_blend(dqdt,order):
+n140_convection3d.py:def make3dgrid(ix,iy,iz,xmax,ymax,zmax):
+n140_convection3d.py:def advect_3d(q,u,v,w,dx,dy,dz):  #non-periodic version
+n140_convection3d.py:def advect_3dp(q,u,v,w,dx,dy,dz,per='U'): # periodic version
+n140_convection3d.py:def div_Cgrid(u,v,w,dx,dy,dz):
+n140_convection3d.py:def v_to_u(v,bnd='slip'):
+n140_convection3d.py:def w_to_u(w,bnd='slip'):
+n140_convection3d.py:def u_to_v(u,bnd='slip'):
+n140_convection3d.py:def w_to_v(w,bnd='slip'):
+n140_convection3d.py:def u_to_w(u,bnd='slip'):
+n140_convection3d.py:def v_to_w(v,bnd='slip'):
+n140_convection3d.py:def u_to_p(u):
+n140_convection3d.py:def v_to_p(v):
+n140_convection3d.py:def w_to_p(w):
+n140_convection3d.py:def U2p_3d(U):
+n140_convection3d.py:def stop_clipping(ax,marg=.02): # default is 2% increase
+n140_convection3d.py:def laplacian(p,dx,dy,dz, il=None, ir=None, jb=None, jt=None , kb=None, kt=None):
+n140_convection3d.py:def lapl_p_3d(p,dx,dy,dz):
+n140_convection3d.py:def lapl_p_3d_periodic(p,dx,dy,dz):
+n140_convection3d.py:def poisson3d_p_fft_prep(sh,dx,dy,dz,lapl='discrete',periodic=False):
+n140_convection3d.py:def poisson3d_p_fft(del2p,inv_lapl_op,periodic=False):
+n140_convection3d.py:def fluxform(q,u,v,w,dx,dy,dz,hfbot,hftop,diffu=0.,gamma=0.):
+n140_convection3d.py:def doplot(ip=None,jp=None,kp=None,vectors=True,kz=None,overwrite=False):
