@@ -1,0 +1,21 @@
+<style>
+div.text_cell_render{
+    background-color: #efe;
+    }
+.rendered_html code {
+    background-color: #efe;
+    color: #900;
+}
+.rendered_html pre {
+    background-color: #efe;
+    color: #900;
+}
+.rendered_html hr {
+height:6px;
+border:none;
+background-color: #f00;
+} 
+.rendered_html h2 {margin-left: 1em; color: purple;  text-align:left; padding-top: 0.5em; }
+.rendered_html h3 {margin-left: 2em; color: olive;  text-align:left; padding-top: 0.5em; }
+.rendered_html h4 {margin-left: 3em; color: teal;  text-align:left; padding-top: 0.5em; }
+</style>
